@@ -1,13 +1,13 @@
-package br.com.microservices.orchestrated.inventoryservice;
+package br.com.orchestrated.orchestratorservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InventoryServiceApplication {
+public class OrchestratorServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InventoryServiceApplication.class, args);
+		SpringApplication.run(OrchestratorServiceApplication.class, args);
 	}
 
 }
