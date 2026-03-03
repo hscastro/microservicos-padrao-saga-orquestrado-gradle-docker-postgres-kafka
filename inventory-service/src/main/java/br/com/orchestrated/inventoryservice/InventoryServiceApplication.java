@@ -1,4 +1,4 @@
-package br.com.microservices.orchestrated.inventoryservice;
+package br.com.orchestrated.inventoryservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
