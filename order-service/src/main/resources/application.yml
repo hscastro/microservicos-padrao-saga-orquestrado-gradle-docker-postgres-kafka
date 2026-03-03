@@ -1,2 +1,16 @@
+application:
+  name: order-service
 server:
   port: 3000
+
+spring:
+  data:
+    mongodb:
+      database: admin
+      uri: ${MONGO_DB_URI:mongodb://admin:1234567@localhost:27017}
+
+logging:
+  level:
+    org:
+      apache:
+        kafka: off
