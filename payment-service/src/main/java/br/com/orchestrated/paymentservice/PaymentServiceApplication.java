@@ -1,4 +1,4 @@
-package br.com.microservices.orchestrated.paymentservice;
+package br.com.orchestrated.paymentservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
