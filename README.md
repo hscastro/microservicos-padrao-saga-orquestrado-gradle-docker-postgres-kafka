@@ -2,7 +2,7 @@
 
 Esse projeto demonstrando a implementação de uma **Arquitetura de Microsserviços utilizando o padrão Saga Orquestrado** para garantir **consistência de dados em transações distribuídas**.
 
-A comunicação entre os serviços é realizada de forma **assíncrona através do Apache Kafka**, com persistência em **PostgreSQL** e **MongoDB**. Toda a infraestrutura é executada em **containers Docker**.
+A comunicação entre os serviços é realizada de forma **assíncrona através do Apache Kafka**, com persistência de dados no **PostgreSQL** e **MongoDB**. Toda a infraestrutura é executada em **containers Docker**.
 
 ---
 
@@ -26,7 +26,13 @@ Payment Service
      │
      ▼
 Saga Completed
+
 ```
+<img width="2481" height="534" alt="mermaid-diagram_arquitetura" src="https://github.com/user-attachments/assets/d8f11235-d30d-4acf-b4e3-afe4a9c5d6b5" />
+
+
+
+---
 
 Caso algum serviço falhe, o **Orchestrator Service** executa as **ações compensatórias**.
 
