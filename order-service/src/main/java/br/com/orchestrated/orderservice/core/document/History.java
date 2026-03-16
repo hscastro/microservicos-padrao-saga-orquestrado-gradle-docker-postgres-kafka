@@ -1,8 +1,6 @@
-package br.com.orchestrated.inventoryservice.core.dto;
+package br.com.orchestrated.orderservice.core.document;
 
 
-
-import br.com.orchestrated.inventoryservice.core.enums.ESagaStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,12 +10,11 @@ import java.time.LocalDateTime;
 
 @Data
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class History {
-
     private String source;
-    private ESagaStatus status;
+    private String status;
     private String message;
     private LocalDateTime createdAt;
 }
