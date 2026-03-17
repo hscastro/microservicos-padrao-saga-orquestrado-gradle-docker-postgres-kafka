@@ -32,6 +32,15 @@ Saga Completed
 
 
 
+
+
+Diagrama da Arquitetura - Microservices
+
+
+
+<img width="811" height="391" alt="arquitetura_microservices_2 drawio" src="https://github.com/user-attachments/assets/2b2a23e0-0875-4f53-9180-ead07055184e" />
+
+
 ---
 
 Caso algum serviço falhe, o **Orchestrator Service** executa as **ações compensatórias**.
