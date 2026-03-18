@@ -28,12 +28,13 @@ Payment Service
 Saga Completed
 
 ```
-<img width="2481" height="534" alt="mermaid-diagram_arquitetura" src="https://github.com/user-attachments/assets/d8f11235-d30d-4acf-b4e3-afe4a9c5d6b5" />
-
-
-<br>
   <br>
    <h2> Arqutetura dos Microserviços </h2>
+<br>
+  <br>
+
+<img width="2481" height="534" alt="mermaid-diagram_arquitetura" src="https://github.com/user-attachments/assets/d8f11235-d30d-4acf-b4e3-afe4a9c5d6b5" />
+
 <br>
   <br>
   
