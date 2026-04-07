@@ -162,6 +162,56 @@ Benefícios:
 
 ---
 
+### Endpoint para iniciar a saga:
+Payload:
+```
+{
+  "products": [
+    {
+      "product": {
+        "code": "COMIC_BOOKS",
+        "unitValue": 15.50
+      },
+      "quantity": 3
+    },
+    {
+      "product": {
+        "code": "BOOKS",
+        "unitValue": 9.90
+      },
+      "quantity": 1
+    }
+  ]
+}
+
+```
+Resposta:
+
+```
+{
+  "id": "64429e987a8b646915b3735f",
+  "products": [
+    {
+      "product": {
+        "code": "COMIC_BOOKS",
+        "unitValue": 15.5
+      },
+      "quantity": 3
+    },
+    {
+      "product": {
+        "code": "BOOKS",
+        "unitValue": 9.9
+      },
+      "quantity": 1
+    }
+  ],
+  "createdAt": "2023-04-21T14:32:56.335943085",
+  "transactionId": "1682087576536_99d2ca6c-f074-41a6-92e0-21700148b519"
+}
+
+```
+
 # 📡 Comunicação entre serviços
 
 A comunicação ocorre via **Apache Kafka** utilizando **event-driven architecture**.
